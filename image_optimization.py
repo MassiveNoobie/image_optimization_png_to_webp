@@ -55,4 +55,4 @@ for webp_file, _, _ in file_info:
         os.remove(webp_file)
         print(f"Deleted {webp_file}")
 
-print(f"Closest file to 35KB: {closest_file[0]}, Size: {closest_file[1]} bytes, Quality: {closest_file[2]}")
+print(f"Closest file to 15KB: {closest_file[0]}, Size: {closest_file[1]} bytes, Quality: {closest_file[2]}")
